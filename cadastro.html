@@ -17,19 +17,14 @@
 
             <input type="text" id="Nome" placeholder="Nome completo">
             <br>
-
-
-            <input type="email" id="Email" placeholder="Email">
+            <input type="text" id="Email" placeholder="Email">
             <br>
-
-
-            <input type="tel" id="Telefone" placeholder="Telefone">
+            <input type="number" id="Telefone" placeholder="Telefone">
             <br>
-
-
-            <input type="text" id="CPF" placeholder="CPF">
+            <input type="number" id="Idade" placeholder="Idade">
             <br>
-
+            <input type="number" id="Peso" placeholder="Peso(kg)">
+            <br>
             <select name="tipo" id="tipo">
                 <option value="">Selecione o Tipo Sanguineo</option>
                 <option value="a+">A+</option>
@@ -41,14 +36,45 @@
                 <option value="o+">O+</option>
                 <option value="o-">O-</option>
             </select>
-
             <br>
-            <input type="tel" id="Telefone" placeholder="Telefone">
-
+            <select name="estado" id="estado">
+                <option value="">Selecione o Estado</option>
+                <option value="ac">Acre (AC)</option>
+                <option value="al">Alagoas (AL)</option>
+                <option value="ap">Amapá (AP)</option>
+                <option value="am">Amazonas (AM)</option>
+                <option value="ba">Bahia (BA)</option>
+                <option value="ce">Ceará (CE)</option>
+                <option value="df">Distrito Federal (DF)</option>
+                <option value="es">Espírito Santo (ES)</option>
+                <option value="go">Goiás (GO)</option>
+                <option value="ma">Maranhão (MA)</option>
+                <option value="mt">Mato Grosso (MT)</option>
+                <option value="ms">Mato Grosso do Sul (MS)</option>
+                <option value="mg">Minas Gerais (MG)</option>
+                <option value="pa">Pará (PA)</option>
+                <option value="pb">Paraíba (PB)</option>
+                <option value="pr">Paraná (PR)</option>
+                <option value="pe">Pernambuco (PE)</option>
+                <option value="pi">Piauí (PI)</option>
+                <option value="rj">Rio de Janeiro (RJ)</option>
+                <option value="rn">Rio Grande do Norte (RN)</option>
+                <option value="rs">Rio Grande do Sul (RS)</option>
+                <option value="ro">Rondônia (RO)</option>
+                <option value="rr">Roraima (RR)</option>
+                <option value="sc">Santa Catarina (SC)</option>
+                <option value="sp">São Paulo (SP)</option>
+                <option value="se">Sergipe (SE)</option>
+                <option value="to">Tocantins (TO)</option>
+            </select>
+            <br>
+            <input type="text" id="Cidade" placeholder="Cidade">
+            <br>
+            <button type="submit">Cadastrar</button>
             <br>
 
-            <input type="text" id="CPF" placeholder="CPF">
-            <button type="submit">Enviar</button>
+            <img src="assets/tabela_tipo_sanguineo.webp" alt="Tabela de Tipos Sanguíneos">
+
         </form>
 </body>
 <script src="script.js"></script>
