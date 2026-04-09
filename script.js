@@ -31,7 +31,9 @@ document.getElementById("Form_Cadastro").addEventListener("submit", function (e)
     if (estado == "") return alert("Estado obrigatório!");
     if (cidade == "") return alert("Cidade obrigatória!");
     document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!<br>" + "Nome:" + nome;
+
+    alert("Formulário enviado!");
+    alert(JSON.stringify(info, null, 2));
+
 });
 
-alert("Formulário enviado!");
-alert(JSON.stringify(info, null, 2));
