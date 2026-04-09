@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Doadores de Sangue</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
     <header>
+        <img id="icon" src="assets/icon_header.webp" alt="">
         <h1>Cadastro para Doadores de Sangue</h1>
     </header>
 
@@ -23,8 +27,6 @@
             <br>
             <input type="number" id="Idade" placeholder="Idade">
             <br>
-            <input type="number" id="Peso" placeholder="Peso(kg)">
-            <br>
             <select name="Tipo" id="Tipo">
                 <option value="">Selecione o Tipo Sanguineo</option>
                 <option value="a+">A+</option>
@@ -36,6 +38,8 @@
                 <option value="o+">O+</option>
                 <option value="o-">O-</option>
             </select>
+            <br>
+            <input type="number" id="Peso" placeholder="Peso(kg)">
             <br>
             <select name="Estado" id="Estado">
                 <option value="">Selecione o Estado</option>
@@ -74,10 +78,12 @@
             <br>
 
             <div id="resultado"></div>
-
-            <img src="assets/tabela_tipo_sanguineo.webp" alt="Tabela de Tipos Sanguíneos">
-
         </form>
+        <h1>Tipos Sanguíneos</h1>
+
+        <img id="tabela_tipo_sanguineo" src="assets/tabela_tipo_sanguineo.webp" alt="Tabela de Tipos Sanguíneos">
+
+
         <script src="script.js"></script>
     </main>
 </body>
